@@ -335,7 +335,7 @@ Note on Addresses:
 
 Since each individual component expects an address but we are only given a single address, we create a forwarding address from our given address that will forward all the actions of the individual address to the grid's address.
 
-To do this, we use the `[Signal.forwardTo](http://package.elm-lang.org/packages/elm-lang/core/2.1.0/Signal#forwardTo)` function which has the following signature
+To do this, we use the [`Signal.forwardTo`](http://package.elm-lang.org/packages/elm-lang/core/2.1.0/Signal#forwardTo) function which has the following signature
 
 ```elm
 Signal.forwardTo : Address a -> (b -> a) -> Address b
