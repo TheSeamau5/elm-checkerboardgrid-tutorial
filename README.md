@@ -1,6 +1,11 @@
 # Checkerboard Grid Tutorial
 
-In this tutorial, we'll see how we can make a [checkerboard](https://en.wikipedia.org/wiki/Checkerboard) grid in Elm where each cell contains an independent, self-updating counter. The goal is to understand more about the [Elm Architecture](http://elm-lang.org/guide/architecture) by exploring container components and how to handle problems such as layout and update when dealing with nested components.
+In this tutorial, we'll see how we can make a [checkerboard](https://en.wikipedia.org/wiki/Checkerboard) grid in Elm where each cell contains an independent, self-updating counter.
+
+![Image of Checkerboard Grid of Counters]
+(/checkerboard.png)
+
+The goal is to understand more about the [Elm Architecture](http://elm-lang.org/guide/architecture) by exploring container components and how to handle problems such as layout and update when dealing with nested components.
 
 You will learn a lot in this tutorial. Concretely, you will learn:
 
