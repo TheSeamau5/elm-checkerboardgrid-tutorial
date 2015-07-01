@@ -547,17 +547,9 @@ toCounterContext gridContext =
       isBlack =
         if gridContext.row % 2 == 0
         then
-          if gridContext.column % 2 == 0
-          then
-            True
-          else
-            False
+          gridContext.column % 2 == 0
         else
-          if gridContext.column % 2 == 0
-          then
-            False
-          else
-            True
+          not (gridContext.column % 2 == 0)
 
       (textColor, backgroundColor) =
         if isBlack
