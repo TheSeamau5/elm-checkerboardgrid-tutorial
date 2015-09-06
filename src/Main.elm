@@ -1,4 +1,4 @@
-import StartApp
+import StartApp.Simple exposing (start)
 import Grid
 import Counter
 import List
@@ -14,7 +14,7 @@ initial =
 
 
 main =
-  StartApp.start
+  start
     { model  = initial
     , update = Grid.update Counter.update
     , view   = Grid.view (toCounterContext >> Counter.view)
